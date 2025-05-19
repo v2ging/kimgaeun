@@ -39,6 +39,5 @@ class StudentManagerTest {
 	void testNonExistStudent() {
 		assertThrows(IllegalArgumentException.class, () -> manager.removeStudent("abc"));
 	}
-	
-	
+
 }
